@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Zolid AJAX Chat</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Global CSS -->
+        <link href="css/bootstrap.min.css?v=222" rel="stylesheet" type="text/css">
+
+        <!-- Chat Css -->
+        <link href="css/chat.css" rel="stylesheet" type="text/css">
+    
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+	</head>
+	<body>
+
+        <iframe class="baniframe back-frame" sandbox="allow-scripts allow-same-origin" src="a4.html"></iframe>
+      <!--  <div class="container-wrapper">-->
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="span12 panel">
+
+                        <div class="panel-header">
+                            <iframe class="baniframe" sandbox="allow-scripts allow-same-origin" src="a7.html"></iframe>
+                            <span>Liebe Amour [Loading...]</span>
+                        </div>
+
+
+
+                        <div class="panel-body">
+                            <!-- The actual Chat -->
+                            <div id="chat_conversation"></div>
+                            <!--<div>
+                                <form id="chat_newmsg" class="row-fluid form-inline" action="#" onsubmit="return false;">
+                                    <input name="message" type="text" class="span9" placeholder="Your message..">
+                                    <button type="submit" class="btn btn-small btn-success">Send Message</button>
+                                </form>
+                            </div>-->
+                            <!-- End of the chat -->
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+       <!-- </div>-->
+
+        
+        <!-- jQuery -->
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        
+        <!-- Twitter Bootstrap -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        
+        <!-- The chat -->
+        <script type="text/javascript" src="js/chat.js"></script>
+        <script type="text/javascript">
+        /*$(document).ready(function(){
+            $(document).obChat({
+                chatBox: '#chat_conversation', // The ID of the chatbox where the messages will be shown
+                msgForm: '#chat_newmsg', // The ID of the form for new chat messages
+                msgMax: 0, // The max messages to display in the chat at any time, 0 = no limit.
+                showLoader: true, // Show the "loader" when the script it querying for new messages or chaning room.
+                debug: true, // Show debugging information in the console
+                updateRate: 10000, // (milliseconds) How often the script will check for new messages. I recommend 7500 or more (7.5 sec).
+                queryurl: 'chat/livechat.processor.php' // The url to the chat query php script.
+            });
+        });*/
+        </script>
+
+    </body>
+</html>

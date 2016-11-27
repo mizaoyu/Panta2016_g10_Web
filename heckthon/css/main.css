@@ -1,0 +1,49 @@
+.carousel{
+	height: 500px;
+	background-color: #000;
+	position: relative;
+}
+
+.carousel .item{
+	height: 500px;
+	background: #000;
+}
+
+.carousel-inner img{
+	width: 100%;
+}
+
+.nav li{
+	margin: 0;
+    text-align: center;
+}
+
+a{
+    font-size: 20px;
+    color: #fff;
+}
+.first{
+	background-color:#DC143C;
+	
+}
+.second{
+	background-color:#4169E1;
+}
+.third{
+	background-color:#BA55D3;
+}
+.fourth{
+	background-color:#00BFFF;
+}
+.fifth{
+	background-color:#2E8B57;
+}
+.sixth{
+	background-color:#696969;
+}
+
+.logo {
+	position: absolute;
+	width: 50px;
+	z-index:100;
+}

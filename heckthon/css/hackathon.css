@@ -1,0 +1,18 @@
+#header {
+	height:120px;
+    text-align: center;
+    line-height: 120px;
+    background: url("../images/1.jpg") no-repeat;
+    background-size:100%;
+}
+p {
+	font-size: 35px;
+}
+
+.content_right {
+   height: 500px;
+   width: 1250px;
+   background:#E6E6FA;
+   background-size: 100%; 
+}
+
